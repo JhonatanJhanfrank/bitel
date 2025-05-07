@@ -6,7 +6,7 @@ export default function Page() {
         <div className={estilos.container}>
             <h1 className={estilos.titulo}>Nosotros en Bitel</h1>
             <p className={estilos.parrafo}>
-                En Bitel, estamos comprometidos a transformar la manera en que te conectas con el mundo. Desde nuestra fundación, hemos trabajado con la misión de ofrecer servicios de telecomunicaciones que superen tus expectativas y te brinden la mejor experiencia posible. Nuestra pasión por la innovación y la excelencia nos impulsa a estar siempre un paso adelante en la industria de las telecomunicaciones.
+                En Bitel PERÚ, estamos comprometidos a transformar la manera en que te conectas con el mundo. Desde nuestra fundación, hemos trabajado con la misión de ofrecer servicios de telecomunicaciones que superen tus expectativas y te brinden la mejor experiencia posible. Nuestra pasión por la innovación y la excelencia nos impulsa a estar siempre un paso adelante en la industria de las telecomunicaciones.
             </p>
             <p className={estilos.parrafo}>
                 Como líder en el sector, nos enorgullece ofrecer una amplia gama de servicios que incluyen planes de telefonía móvil, internet de alta velocidad y soluciones empresariales personalizadas. Nuestra red de última generación está diseñada para ofrecer cobertura y velocidad excepcionales, garantizando que estés siempre conectado, sin importar dónde te encuentres.
