@@ -1,0 +1,43 @@
+.todo {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.h1{text-align: center;color: black;text-decoration: underline;}
+.redes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    justify-items: center;
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #8a8a8a;
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.icono:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #fae99c; /* Bitel Color */
+}
+
+.icono ion-icon {
+    font-size: 30px;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.icono:hover ion-icon {
+    color: #282828;
+}

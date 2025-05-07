@@ -1,0 +1,153 @@
+{
+    "planes": {
+      "ilimitados": [
+        {
+          "nombre": "Plan Bitel Ilimitado 29.90",
+          "datosMoviles": "Ilimitados (con una velocidad reducida después de consumir 10 GB)",
+          "llamadas": "Ilimitadas a nivel nacional",
+          "mensajes": "Ilimitados",
+          "beneficiosAdicionales": "Acceso a aplicaciones de redes sociales sin consumir datos (WhatsApp, Facebook, etc.)",
+          "precio": "S/29.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Ilimitado 39.90",
+          "datosMoviles": "Ilimitados (con una velocidad reducida después de consumir 20 GB)",
+          "llamadas": "Ilimitadas a nivel nacional",
+          "mensajes": "Ilimitados",
+          "beneficiosAdicionales": "Acceso a aplicaciones de streaming de música sin consumir datos (Spotify, Apple Music, etc.)",
+          "precio": "S/39.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Ilimitado 49.90",
+          "datosMoviles": "Ilimitados (con una velocidad reducida después de consumir 30 GB)",
+          "llamadas": "Ilimitadas a nivel nacional",
+          "mensajes": "Ilimitados",
+          "beneficiosAdicionales": "Acceso a aplicaciones de video streaming sin consumir datos (YouTube, Netflix, etc.)",
+          "precio": "S/49.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Ilimitado 55.90",
+          "datosMoviles": "Ilimitados (con una velocidad reducida después de consumir 40 GB)",
+          "llamadas": "Ilimitadas a nivel nacional",
+          "mensajes": "Ilimitados",
+          "beneficiosAdicionales": "Mayor cantidad de GB para compartir (tethering/hotspot)",
+          "precio": "S/55.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Ilimitado 65.90",
+          "datosMoviles": "Ilimitados (con una velocidad reducida después de consumir 50 GB)",
+          "llamadas": "Ilimitadas a nivel nacional",
+          "mensajes": "Ilimitados",
+          "beneficiosAdicionales": "Llamadas internacionales a ciertos países incluidas",
+          "precio": "S/65.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Ilimitado 69.90",
+          "datosMoviles": "Ilimitados (con una velocidad reducida después de consumir 60 GB)",
+          "llamadas": "Ilimitadas a nivel nacional",
+          "mensajes": "Ilimitados",
+          "beneficiosAdicionales": "Acceso prioritario al servicio al cliente",
+          "precio": "S/69.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Ilimitado 79.90",
+          "datosMoviles": "Ilimitados (con una velocidad reducida después de consumir 80 GB)",
+          "llamadas": "Ilimitadas a nivel nacional",
+          "mensajes": "Ilimitados",
+          "beneficiosAdicionales": "Acceso a redes sociales y aplicaciones de video sin consumir datos",
+          "precio": "S/79.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Ilimitado 105.90",
+          "datosMoviles": "Ilimitados (con una velocidad reducida después de consumir 100 GB)",
+          "llamadas": "Ilimitadas a nivel nacional",
+          "mensajes": "Ilimitados",
+          "beneficiosAdicionales": "Acceso completo a internet sin reducción de velocidad en apps seleccionadas",
+          "precio": "S/105.90 mensual",
+          "duracion": "1 mes"
+        }
+      ],
+      "limitados": [
+        {
+          "nombre": "Plan Bitel Limitado 19.90",
+          "datosMoviles": "2 GB",
+          "llamadas": "100 minutos a nivel nacional",
+          "mensajes": "100 SMS",
+          "beneficiosAdicionales": "Acceso a redes sociales con 500 MB adicionales",
+          "precio": "S/19.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Limitado 29.90",
+          "datosMoviles": "5 GB",
+          "llamadas": "300 minutos a nivel nacional",
+          "mensajes": "300 SMS",
+          "beneficiosAdicionales": "Acceso a redes sociales con 1 GB adicional",
+          "precio": "S/29.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Limitado 39.90",
+          "datosMoviles": "7 GB",
+          "llamadas": "500 minutos a nivel nacional",
+          "mensajes": "500 SMS",
+          "beneficiosAdicionales": "Acceso a redes sociales con 2 GB adicionales",
+          "precio": "S/39.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Limitado 49.90",
+          "datosMoviles": "10 GB",
+          "llamadas": "700 minutos a nivel nacional",
+          "mensajes": "700 SMS",
+          "beneficiosAdicionales": "Acceso a redes sociales con 3 GB adicionales",
+          "precio": "S/49.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Limitado 59.90",
+          "datosMoviles": "12 GB",
+          "llamadas": "900 minutos a nivel nacional",
+          "mensajes": "900 SMS",
+          "beneficiosAdicionales": "Acceso a redes sociales con 4 GB adicionales",
+          "precio": "S/59.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Limitado 69.90",
+          "datosMoviles": "15 GB",
+          "llamadas": "1100 minutos a nivel nacional",
+          "mensajes": "1100 SMS",
+          "beneficiosAdicionales": "Acceso a redes sociales con 5 GB adicionales",
+          "precio": "S/69.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Limitado 79.90",
+          "datosMoviles": "20 GB",
+          "llamadas": "1300 minutos a nivel nacional",
+          "mensajes": "1300 SMS",
+          "beneficiosAdicionales": "Acceso a redes sociales con 6 GB adicionales",
+          "precio": "S/79.90 mensual",
+          "duracion": "1 mes"
+        },
+        {
+          "nombre": "Plan Bitel Limitado 105.90",
+          "datosMoviles": "30 GB",
+          "llamadas": "1500 minutos a nivel nacional",
+          "mensajes": "1500 SMS",
+          "beneficiosAdicionales": "Acceso a redes sociales con 8 GB adicionales",
+          "precio": "S/99.90 mensual",
+          "duracion": "1 mes"
+        }
+      ]
+    }
+  }
+  

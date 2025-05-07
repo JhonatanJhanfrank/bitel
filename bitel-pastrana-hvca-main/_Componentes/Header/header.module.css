@@ -1,0 +1,219 @@
+/* Estilos generales */
+.logo {
+  position: relative;
+  width: 100px;
+  height: 50px;
+}
+
+.enlace {
+  color: #024385;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 30px;
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.enlace::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0066cc;
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.enlace:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.enlace:hover {
+  color: #ffeb3b;
+}
+
+/* Estilos para el header de computadoras */
+.todoDesktop {
+  width: 90%;
+  padding: 1% 5%;
+  background-color: #ffeb3b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+/* Estilos para el header de móviles */
+.todoMobile {
+  display: none;
+}
+
+.menuIcon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 6px;
+  padding: 10px;
+  place-items: center;
+}
+
+.menuIcon ion-icon {
+  font-size: 2em;
+  color: #004d40;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  background-color: #ffcc00; /* Fondo amarillo */
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: flex-start;
+  transition: left 0.4s ease;
+  z-index: 10;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2.5rem; /* Aumenta el tamaño del icono */
+  cursor: pointer;
+  color: #ff0000; /* Color de icono de cerrar */
+  transition: transform 0.3s, color 0.3s; /* Añade una transición de color */
+}
+
+.closeIcon:hover {
+  transform: rotate(90deg);
+  color: #ff5733; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilos para enlaces en el sidebar */
+.sidebar a {
+  color: #004d40; /* Color de enlaces */
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 2px solid #004d40;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.sidebar a:hover {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+/* Estilos para móviles */
+@media (max-width: 768px) {
+  .todoDesktop {
+    display: none;
+  }
+
+  .fondoCelular {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .fondoCelular.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .todoMobile {
+    display: flex;
+    width: 90%;
+    padding: 1% 5%;
+    z-index: 2;
+    background-color: #ffeb3b;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    background-color: #ffcc00; /* Fondo amarillo */
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    transition: left 0.4s ease;
+    z-index: 10;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar a {
+    color: #004d40; /* Color de enlaces */
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 2px solid #004d40;
+    transition: color 0.3s, border-bottom-color 0.3s;
+  }
+
+  .sidebar a:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+}
+@media (max-width: 400px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -1000%;
+    width: 300px;
+    height: 100%;
+    background-color: #ffcc00; /* Fondo amarillo */
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    transition: left 0.4s ease;
+    z-index: 10;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+}

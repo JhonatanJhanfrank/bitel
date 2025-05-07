@@ -1,0 +1,116 @@
+.todo {
+  width: 100%;
+  padding: 1% 0%;
+  background-color: #ffee00; /* Fondo amarillo que combina con el tema */
+  display: grid;
+  grid-template-columns: 28% 40% 28%; /* Tres columnas: logo, nav, social */
+  align-items: center;
+  gap: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+  color: #000000;
+}
+
+.logo {
+  font-size: 1.5em;
+  margin-left: 1%;
+  font-weight: bold;
+  color: #ffcc00; /* Color amarillo de Bitel */
+  justify-self: flex-start; /* Alinea el logo al inicio de su columna */
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #756a3f;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.social a {
+  color: #000000;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #ffcc00;
+}
+
+/* Media queries para responsive design */
+
+@media (max-width: 1024px) {
+  .todo {
+    grid-template-columns: 30% 40% 30%; /* Ajusta las columnas para pantallas medianas */
+  }
+
+  .nav {
+    gap: 15px; /* Reduce el espacio entre los enlaces de navegación */
+  }
+}
+
+@media (max-width: 768px) {
+  .todo {
+    grid-template-columns: 1fr 1fr; /* Dos columnas: logo y nav/social */
+    grid-template-rows: auto auto; /* Agrega una nueva fila */
+    text-align: center;
+  }
+
+  .logo {
+    grid-column: 1 / 3; /* El logo ocupa toda la fila superior */
+    justify-self: center;
+    margin: 0; /* Centra el logo */
+  }
+
+  .nav {
+    justify-content: center;
+    gap: 10px; /* Ajusta el espacio entre los enlaces de navegación */
+  }
+
+  .social {
+    justify-content: flex-end;margin-right: 5%;
+    gap: 10px; /* Ajusta el espacio entre los iconos sociales */
+  }
+}
+
+@media (max-width: 480px) {
+  .todo {
+    grid-template-columns: 1fr; /* Una sola columna */
+    grid-template-columns: 1fr 1fr; /* Dos columnas: logo y nav/social */
+    gap: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    flex-direction: column; /* Coloca los enlaces de navegación en columna */
+    gap: 10px; /* Reduce el espacio entre los enlaces */
+  }
+
+  .social {
+    justify-content: center;
+    gap: 8px; /* Reduce el espacio entre los iconos sociales */
+  }
+
+  .social a {
+    font-size: 1.2em; /* Reduce el tamaño de los iconos sociales */
+  }
+}

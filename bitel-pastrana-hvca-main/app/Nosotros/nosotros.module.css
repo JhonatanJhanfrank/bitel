@@ -1,0 +1,68 @@
+/* Estilo principal del contenedor */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f4f4f9; /* Fondo suave */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el título */
+  .titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Línea decorativa bajo el título */
+  .titulo::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #ff6b6b; /* Color de acento */
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Estilo para los párrafos */
+  .parrafo {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    text-indent: 1em;
+  }
+  
+  /* Estilo para los links dentro de los párrafos */
+  .parrafo a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .parrafo a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .titulo {
+      font-size: 2rem;
+    }
+  
+    .parrafo {
+      font-size: 0.9rem;
+    }
+  }
+  
